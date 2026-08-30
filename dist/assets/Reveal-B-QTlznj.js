@@ -1,0 +1,1 @@
+import{n as e,r as t,t as n}from"./index-C9Jt4nZY.js";var r=t();function i({children:t,className:i=``,delay:a=0}){let o=n();return(0,r.jsx)(e.div,{className:i,initial:!o&&{opacity:0,y:26},whileInView:o?{}:{opacity:1,y:0},viewport:{once:!0,margin:`-80px`},transition:{duration:.65,delay:a,ease:[.22,1,.36,1]},children:t})}export{i as t};
