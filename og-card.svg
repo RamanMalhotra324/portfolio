@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f1eee7"/>
+  <path d="M72 72h1056v486H72z" fill="none" stroke="#171714" stroke-width="2"/>
+  <circle cx="1072" cy="128" r="22" fill="#f05a32"/>
+  <text x="112" y="195" fill="#f05a32" font-family="monospace" font-size="24" letter-spacing="5">FRONTEND / MERN / INDIA</text>
+  <text x="108" y="350" fill="#171714" font-family="Georgia,serif" font-size="112">Raman Malhotra</text>
+  <text x="112" y="432" fill="#171714" font-family="Arial,sans-serif" font-size="34">I make ambitious products feel effortless.</text>
+  <path d="M112 493h976" stroke="#171714" stroke-width="2"/>
+</svg>

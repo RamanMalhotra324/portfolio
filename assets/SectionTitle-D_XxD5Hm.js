@@ -1,0 +1,1 @@
+import{r as e}from"./index-C9Jt4nZY.js";var t=e();function n({number:e,kicker:n,children:r}){return(0,t.jsxs)(`header`,{className:`section-title`,children:[(0,t.jsx)(`span`,{className:`section-title__number`,children:e}),(0,t.jsx)(`p`,{className:`eyebrow`,children:n}),(0,t.jsx)(`h2`,{children:r})]})}export{n as t};
