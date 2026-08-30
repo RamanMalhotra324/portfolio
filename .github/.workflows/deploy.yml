@@ -1,4 +1,4 @@
-name: Deploy Portfolio
+name: Deploy to GitHub Pages
 
 on:
   push:
@@ -9,10 +9,6 @@ permissions:
   contents: read
   pages: write
   id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
 
 jobs:
   build:
@@ -32,12 +28,14 @@ jobs:
         run: npm ci
 
       - name: Build
-        run: VITE_BASE_PATH=/portfolio/ npm run build
+        run: npm run build
+        env:
+          VITE_BASE_PATH: /portfolio/
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      - name: Upload artifact
+      - name: Upload build
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist
