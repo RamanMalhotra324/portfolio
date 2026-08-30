@@ -7,5 +7,8 @@ export default defineConfig(({ mode }) => {
   return {
     plugins: [react()],
     base: "/portfolio/" || '/',
+    build: {
+  outDir: 'docs'
+}
   }
 })
